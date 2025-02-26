@@ -1,0 +1,66 @@
+{
+  "name": "react-webllm",
+  "version": "0.1.0",
+  "description": "React hooks and provider for integrating WebLLM into React applications",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "webllm",
+    "llm",
+    "ai",
+    "machine learning",
+    "language model",
+    "mlc",
+    "browser"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/react-webllm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-webllm/issues"
+  },
+  "homepage": "https://github.com/yourusername/react-webllm#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "@mlc-ai/web-llm": "^0.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/jest": "^28.1.0",
+    "@types/react": "^18.0.10",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "jest": "^28.1.0",
+    "rollup": "^2.75.5",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^28.0.3",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.2"
+  }
+}
