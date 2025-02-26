@@ -1,5 +1,8 @@
 ## react-webllm
 
+> [!WARNING]
+> This is a work in progress, breaking changes guaranteed.
+
 **react-webllm** is a library that lets you easily bring [WebLLM](https://webllm.mlc.ai/) 
 into your react apps.
 
@@ -11,7 +14,7 @@ Just wrap your components with a provider:
 import React, { useState, useEffect } from 'react';
 import { LLMProvider, useLLM } from 'react-webllm';
 
-function App() {
+const App = () => {
   return (
     <LLMProvider autoInitialize={true}>
       <Chat />
